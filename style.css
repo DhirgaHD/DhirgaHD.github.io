@@ -1,0 +1,82 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+.profile{
+    padding: 30px;
+    width: 200px;
+    height: 320px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 18px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.wrapperpp{
+    width: 150px;
+    height: 150;
+    box-shadow: 3px 5px 8px  rgb(117, 0, 171);
+    border-radius: 50%;
+    padding: 4px;
+    background: linear-gradient(110deg, #ff3c63 0%, #0071bc 100%);
+    position: fixed;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-justify: center;
+    letter-spacing: 0.3px;
+    color: rgb(255, 255, 255);
+}
+.profilepicture{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.nama {
+    line-height: 4;
+}
+.contact {
+    line-height: 1%;
+}
+.whatsapp{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    top: 100%;
+    right: 100%;
+    transform: translate(-65%, 7%);
+}
+.discord{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    top: 100%;
+    right: 100%;
+    transform: translate(-54%, 7%);
+}
+.instagram{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    top: 100%;
+    right: 100%;
+    transform: translate(120%, -100%);
+}
+body{
+    background-image: url("8de91786-56b1-4dfa-be1c-eda3249526c3.jpg");
+    background-size: 113%;
+    animation: gradient-animation 15s infinite alternate;
+}
+@keyframes gradient-animation {
+    0% {
+        background-position: left;
+    }
+
+    100% {
+        background-position: right;
+    }
+}
+
