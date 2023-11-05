@@ -67,7 +67,7 @@ html{
 }
 body{
     background-image: url("8de91786-56b1-4dfa-be1c-eda3249526c3.jpg");
-    background-size: 113%;
+    background-size: 100vh;
     animation: gradient-animation 15s infinite alternate;
 }
 @keyframes gradient-animation {
